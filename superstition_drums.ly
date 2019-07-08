@@ -1,5 +1,10 @@
 \version "2.18.0"
 
+\header {
+  title = "Superstition"
+  composer = "Stevie Wonder"
+}
+
 % ====== Drum notations customized
 #(define md '(
   (ridecymbal   cross    #f  5)(ridebell     xcircle  #f  5)
@@ -24,13 +29,13 @@ up = \drummode {
   \numericTimeSignature
   
   % Tempo and rehearsal marks
-  \mark #1
+  % \mark #1
   
   % Notes
   r2 sn4 sn8[ sn16 sn] |
   hh8[ hh] <hh sn>[ hh16 hh] hh[ hh hh8] <hh sn>[ hh16 hh]
 
-  \bar ":|."
+  % \bar ":|."
 }
 
 % ===== Stems Down voice
