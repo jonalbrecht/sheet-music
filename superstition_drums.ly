@@ -33,7 +33,8 @@ up = \drummode {
   
   % Notes
   r2 sn4 sn8[ sn16 sn] |
-  hh8[ hh] <hh sn>[ hh16 hh] hh[ hh hh8] <hh sn>[ hh16 hh]
+  hh8[ hh] <hh sn>[ hh16 hh] hh[ hh hh8] <hh sn>[ hh16 hh] |
+  hh8[ hh] <hh sn>[ hh16 hh] hh8[ hh16 hh] <hh sn>[ hh16 hh8] |
 
   % \bar ":|."
 }
@@ -45,7 +46,8 @@ down = \drummode {
   
   % Notes
   s1 |
-  bd4 bd bd bd
+  bd4 bd bd bd |
+  bd4 bd bd bd |
 }
 
 % ====== Layout customizations
@@ -72,6 +74,6 @@ down = \drummode {
   line-width=#200
   oddFooterMarkup=##f
   oddHeaderMarkup=##f
-  bookTitleMarkup = ##f
-  scoreTitleMarkup = ##f
+  %bookTitleMarkup = ##f
+  %scoreTitleMarkup = ##f
 }
