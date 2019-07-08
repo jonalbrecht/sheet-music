@@ -70,7 +70,7 @@ down = \drummode {
 % ===== Page customizations
 \paper{
   #(set-paper-size "letter")
-  indent=#0
+  %indent=#0
   line-width=#200
   oddFooterMarkup=##f
   oddHeaderMarkup=##f
