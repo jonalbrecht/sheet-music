@@ -67,6 +67,13 @@ down = \drummode {
   >>
   
   \layout {\context {\Score \remove "Bar_number_engraver"}}
+
+	\midi {
+		\context {
+			\Score
+			tempoWholesPerMinute = #(ly:make-moment 98 4)
+		}
+	}
 }
 
 % ===== Page customizations
