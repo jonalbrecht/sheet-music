@@ -36,6 +36,8 @@ up = \drummode {
   hh8[ hh ^>] <hh sn>[ hh16 hh] hh[ hh hh8] <hh sn>[ hh16 hh] |
   hh8[ hh ^>] <hh sn>[ hh16 hh] hh8[ hh16 ^> hh] <hh sn>[ hh16 hh8] |
   hh8[ hh16 ^> hh] <hh sn>8[ hh16 hh] hh8[hh16 hh] <hh sn>16[ hh hh hh] |
+  hh8[ hh ^>] <hh sn>[ hh16 hh] hh8[ hh ^>] <hh sn>16[ hh hh hh] |
+  hh8[ hh ^>] <hh sn>[ hh16 hh] hh8[ hh16 hh] <hh sn>16[ hh hh hh] |
 
   % \bar ":|."
 }
@@ -47,6 +49,8 @@ down = \drummode {
   
   % Notes
   s1 |
+  bd4 bd bd bd |
+  bd4 bd bd bd |
   bd4 bd bd bd |
   bd4 bd bd bd |
   bd4 bd bd bd |
