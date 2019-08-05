@@ -82,7 +82,7 @@ down = \drummode {
   >>
   
   \layout {\context {
-    %\Score \remove "Bar_number_engraver"
+    \Score \remove "Bar_number_engraver"
     }
   }
 
