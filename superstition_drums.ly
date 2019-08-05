@@ -38,7 +38,12 @@ up = \drummode {
   hh8[ hh16 ^> hh] <hh sn>8[ hh16 hh] hh8[hh16 hh] <hh sn>16[ hh hh hh] |
   hh8[ hh ^>] <hh sn>[ hh16 hh] hh8[ hh ^>] <hh sn>16[ hh hh hh] |
   hh8[ hh ^>] <hh sn>[ hh16 hh] hh8[ hh16 hh] <hh sn>16[ hh hh hh] |
-
+  hh8[ hh ^>] <hh sn>[ hh16 hh] hh8[ hh16 hh] <hh sn>16[ hh hh hh] |
+  hh8[ hh16 ^> hh] <hh sn>8[ hh16 hh] hh8[hh16 hh] <hh sn>16[ hh hh hh] |
+  hh8[ hh ^>] <hh sn>[ hh16 hh] hh8 sn8 sn16[ sn sn sn] |
+  cymc8 hh8 <hh sn>8[ hh16 hh] hh8[hh16 hh] <hh sn>8[ hh] |
+  hh8[ hh ^>] <hh sn>[ hh16 hh] hh8[ hh ^>] <hh sn>8[ sn16 sn] |
+  hh8[ hh16 ^> hh] <hh sn>8[ hh16 hh] hh8[hh16 hh] <hh sn>8[ hh16 hh] |
   % \bar ":|."
 }
 
@@ -54,6 +59,12 @@ down = \drummode {
   bd4 bd bd bd |
   bd4 bd bd bd |
   bd4 bd bd bd |
+  bd4 bd bd bd |
+  bd4 bd bd bd |
+  bd4 bd bd bd |
+  bd8. bd16 bd4 bd8. bd16 bd4 |
+  bd8. bd16 bd8. bd16 bd8. bd16 bd4 |
+  bd8. bd16 bd8. bd16 bd8. bd16 bd8. bd16 |
 }
 
 % ====== Layout customizations
@@ -70,7 +81,10 @@ down = \drummode {
     >>
   >>
   
-  \layout {\context {\Score \remove "Bar_number_engraver"}}
+  \layout {\context {
+    %\Score \remove "Bar_number_engraver"
+    }
+  }
 
 	\midi {
 		\context {
