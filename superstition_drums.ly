@@ -63,7 +63,7 @@ down = \drummode {
   bd4 bd bd bd |
   bd4 bd bd bd |
   bd4 bd8. bd16 bd4 bd8. bd16 |
-  bd8. bd16 bd8. bd16 bd8. bd16 bd4 |
+  bd4 bd8. bd16 bd8. bd16 bd4 |
   bd8. bd16 bd8. bd16 bd8. bd16 bd8. bd16 |
 }
 
