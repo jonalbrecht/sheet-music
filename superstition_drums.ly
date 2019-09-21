@@ -32,11 +32,13 @@ up = \drummode {
   % \mark #1
   
   % Notes
-  r2 sn4 sn8[ sn16 sn] |
+  \mark "Drum Intro"
+  r2 sn4 sn8[ sn16 sn] \bar "||"
+  \set Score.currentBarNumber = #1
   hh8[ hh ^>] <hh sn>[ hh16 hh] hh[ hh hh8] <hh sn>[ hh16 hh] |
   hh8[ hh ^>] <hh sn>[ hh16 hh] hh8[ hh16 ^> hh] <hh sn>[ hh16 hh8] |
   hh8[ hh16 ^> hh] <hh sn>8[ hh16 hh] hh8[hh16 hh] <hh sn>16[ hh hh hh] |
-  hh8[ hh ^>] <hh sn>[ hh16 hh] hh8[ hh ^>] <hh sn>16[ hh hh hh] |
+  hh8[ hh ^>] <hh sn>[ hh16 hh] \mark "Keys Start" hh8[ hh ^>] <hh sn>16[ hh hh hh] |
   hh8[ hh ^>] <hh sn>[ hh16 hh] hh8[ hh16 hh] <hh sn>16[ hh hh hh] |
   hh8[ hh ^>] <hh sn>[ hh16 hh] hh8[ hh16 hh] <hh sn>16[ hh hh hh] |
   hh8[ hh16 ^> hh] <hh sn>8[ hh16 hh] hh8[hh16 hh] <hh sn>16[ hh hh hh] |
@@ -82,7 +84,7 @@ down = \drummode {
   >>
   
   \layout {\context {
-    \Score \remove "Bar_number_engraver"
+%    \Score \remove "Bar_number_engraver"
     }
   }
 
